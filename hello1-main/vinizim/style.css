@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffebb7;
+    height: 1300px;
+}
+
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    font-weight: 600;/*negrito*/
+    font-size: 25px;/*tamanho fonte*/
+    color: #989d9c;
+    cursor: pointer;
+    text-decoration: none;/*tirar a linha de baixo*/
+    margin-right: 23px;/*espaçamento externo a direita */
+}
+
+.link-header, a{
+    text-decoration: none;
+    
+}
+
+.link-header, a:visited{
+    text-decoration: none;
+    
+}
+
+.button-header {
+    text-decoration: none;
+    background-color: #83580b;;
+    border-radius: 20.5px;
+    width: 162px;
+    height: 41px;
+    border: none;/*tirando a borda do botão*/
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.button-header:hover{
+    background-color: #cccccc;
+    border-radius: 2px;
+    
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    transition: 2s;
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.logo-image:hover{
+    filter: drop-shadow(0px 15px 4px #adff00 );
+    width: 650px;
+    height: 550px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 122px ;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main{
+    background: #83580b; 
+    border-radius: 30px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    /*colocando efeito sombra no texto*/
+    filter: drop-shadow(0px 4px 4px #000000);
+    font-weight: 700;
+    font-size: 28px;
+    
+    
+    color: #000000;
+    margin-bottom: 100px;
+    transition: 2s;
+}
+
+.button-main:hover{
+    background-color: #d9b650; ;
+    border-radius: 2px;
+    filter: drop-shadow(0px 4px 4px #d9b650;;  );
+    
+
+}
+
+
+.Contato{
+    right: 90px;
+    margin-top: 8px;
+
+}
+
+.Ajude{
+    right: 210px;
+    margin-top: 0px;
+}
+
+.Rodape{
+    background-color: #d9b650; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    padding: 12px;
+    font-size: 20px;
+    color: white;
+    margin-top: 320px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
